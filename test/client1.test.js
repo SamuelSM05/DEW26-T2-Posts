@@ -1,6 +1,6 @@
 /* eslint-env jest */
 
-import Client from '../src/client.js';test('Create client', () => {
+import Client from '../src/client.js'; test('Create client', () => {
   const lu = new Client('Lucy')
   expect(lu).toEqual({
     name: 'Lucy',
